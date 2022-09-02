@@ -33,6 +33,7 @@
 				<li><a href="service.php">SERVICE</a></li>
 				<li><a href="contact.php">CONTACT</a></li>
 				<li><a href="logout.php">LOGOUT</a></li>
+				<li><a href="ajaxtampil.html">SEARCH</a></li>
 			</ul>
 		</div>
 	</header>
