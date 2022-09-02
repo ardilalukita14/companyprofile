@@ -1,6 +1,6 @@
 <?php
 $servername = "localhost";
-$database = "company";
+$database = "tsa_web";
 $user = "root";
 $password = "";
 

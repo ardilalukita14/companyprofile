@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Company Profile</title>
+	<title>Dzulfikar Nurfikri</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
@@ -26,59 +26,53 @@
 	</div>
 	<header>
 		<div class="container">
-			<h1><a href="index.php">COMPANY PROFILE</a></h1>
+			<h1><a href="index.php">DZULFIKAR</a></h1>
 			<ul>
 				<li class="active"><a href="index.php">HOME</a></li>
 				<li><a href="about.php">ABOUT</a></li>
 				<li><a href="service.php">SERVICE</a></li>
 				<li><a href="contact.php">CONTACT</a></li>
-				<li><a href="logout.php">LOGOUT</a></li>
 			</ul>
 		</div>
 	</header>
 
-	<!-- banner -->
-	<section class="banner">
-		<h2>WELCOME TO OUR WEBSITE</h2>
-	</section>
-
-	<!-- about -->
-	<section class="about">
+	<!-- label -->
+	<section class="label">
 		<div class="container">
-			<h3>ABOUT</h3>
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <strong>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</strong>, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+			<p>Home / Contact</p>
 		</div>
 	</section>
 
 	<!-- service -->
 	<section class="service">
 		<div class="container">
-			<h3>SERVICE</h3>
+			<h3>CONTACT INFO</h3>
 			<div class="box">
 				<div class="col-4">
-					<div class="icon"><i class="fas fa-mobile"></i></div>
-					<h4>MOBILE APP</h4>
+					<h4>Address</h4>
+					<p>Jl. Petojo VIJ VI, Cideng, Gambir, Jakarta Pusat 10150</p>
 				</div>
 				<div class="col-4">
-					<div class="icon"><i class="fas fa-globe"></i></div>
-					<h4>WEB DEVELOPMENT</h4>
+					<h4>Email</h4>
+					<p>dzulfikarnurfikri01@gmail.com</p>
 				</div>
 				<div class="col-4">
-					<div class="icon"><i class="fas fa-edit"></i></div>
-					<h4>DESIGN</h4>
+					<h4>Telp.</h4>
+					<p>(021) 12345678</p>
 				</div>
 				<div class="col-4">
-					<div class="icon"><i class="fas fa-chart-bar"></i></div>
-					<h4>DIGITAL MARKETING</h4>
+					<h4>Hp</h4>
+					<p>082217604816</p>
 				</div>
 			</div>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.6900571309807!2d106.80475321430978!3d-6.172237062202331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f67cae96f361%3A0x403c9461afd06e19!2sJl.%20Petojo%20Vij%20VI%2C%20RW.6%2C%20Cideng%2C%20Kecamatan%20Gambir%2C%20Kota%20Jakarta%20Pusat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2010150!5e0!3m2!1sid!2sid!4v1588930605432!5m2!1sid!2sid" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 		</div>
 	</section>
 
 	<!-- footer -->
 	<footer>
 		<div class="container">
-			<small>Copyright &copy; 2020 - COMPRFL. All Rights Reserved.</small>
+			<small>Copyright &copy; 2020 - Dzulfikar. All Rights Reserved.</small>
 		</div>
 	</footer>
 

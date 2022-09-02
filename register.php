@@ -2,17 +2,15 @@
     if(isset($_POST['register']))
     {
         // Get data
-        $nama = $_POST['nama'];
         $username = $_POST['username'];
-        $email = $_POST['email'];
         $password = $_POST['password'];
         $role = $_POST['role'];
 
-        if($nama!='' && $username!='' && $email!='' && $password!='' && $role!='')
+        if($username!='' && $password!='' && $role!='')
         {
 
         // SQL statement
-        $sql = "INSERT INTO user(nama, username, email, password, role) VALUES('$nama', '$username', '$email', '$password', '$role')";
+        $sql = "INSERT INTO user(username, password, role) VALUES('$username', '$password', '$role')";
 
         // Membuat koneksi
         include_once('koneksi.php');
@@ -46,14 +44,8 @@
     <div class="container">
         <form action="" method="POST" class="login-email" name="register">
             <p class="login-text" style="font-size: 2rem; font-weight: 800;">Register</p>
-             <div class="input-group">
-                <input type="text" name="nama" class="form-control form-control-lg" id="nama" placeholder="Nama">
-            </div>
             <div class="input-group">
                 <input type="text" name="username" class="form-control form-control-lg" id="username" placeholder="Username">
-            </div>
-            <div class="input-group">
-                 <input type="email" name="email" class="form-control form-control-lg" id="email" placeholder="Email">
             </div>
             <div class="input-group">
                   <input type="password" name="password" class="form-control form-control-lg" id="password" placeholder="Password">
@@ -65,7 +57,7 @@
             </div> -->
             <div class="input-group">
              <select name="role" style="margin-left:15px; width:150px; background-color: white;">
-                 <option value="administrator">Administrator</option>
+                 <option value="admin">Admin</option>
                  <option value="user" selected="selected">User</option>
             </select>
         </div>
@@ -81,7 +73,7 @@
             <div class="input-group">
                 <input type="submit" name="register" class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" value="REGISTER"/>
             </div>
-            <p class="login-register-text">Anda sudah punya akun? <a href="login.php">Login </a></p>
+            <p class="login-register-text">Anda sudah punya akun? <a href="sessionLoginForm.html">Login </a></p>
         </form>
     </div>
 </body>
